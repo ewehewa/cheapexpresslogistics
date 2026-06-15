@@ -215,7 +215,7 @@
                                             <div class="form-group">
                                                 <label>Tracking Number <span class="text-danger">*</span></label>
                                                 <input type="text" name="tracking_number" class="form-control"
-                                                    value="{{ old('tracking_number', 'PKG' . strtoupper(uniqid())) }}"
+                                                    value="{{ old('tracking_number', 'PKG' . strtoupper(substr(md5(uniqid()), 0, 7))) }}"
                                                     required>
                                                 <span class="text-danger" id="tracking_number_error"></span>
                                                 <div class="input-example">Automatically generated tracking number</div>
