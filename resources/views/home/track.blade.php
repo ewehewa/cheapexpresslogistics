@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Track Shipment - Cheap Express Logistics')
+@section('title', 'Track Shipment - Freight Fast Cargo')
 
 @push('styles')
 <style>

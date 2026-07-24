@@ -1,9 +1,9 @@
-Cheap Express LOGISTICS
+Freight Fast Cargo
 ==================
 
 {{ $emailBody }}
 
 ---
 
-(c) {{ date('Y') }} Cheap Express Logistics. All rights reserved.
-This email was sent by Cheap Express Logistics administration.
+(c) {{ date('Y') }} Freight Fast Cargo. All rights reserved.
+This email was sent by Freight Fast Cargo administration.

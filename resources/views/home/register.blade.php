@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Create New Package - Cheap Express Logistics')
+@section('title', 'Create New Package - Freight Fast Cargo')
 
 @section('content')
 <!-- Page Header -->

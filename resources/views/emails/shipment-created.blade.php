@@ -138,7 +138,7 @@
                                     <td align="center" style="padding: 20px 0;">
                                         <span
                                             style="font-size: 26px; font-weight: 800; color: #0f172a; letter-spacing: -0.5px; text-decoration: none;">
-                                            📦 {{ config('app.name', 'Cheap Express Logistics') }}
+                                            📦 {{ config('app.name', 'Freight Fast Cargo') }}
                                         </span>
                                     </td>
                                 </tr>
@@ -593,7 +593,7 @@
                     <tr>
                         <td style="padding: 32px 32px 16px; text-align: center;">
                             <p style="margin: 0 0 8px; font-size: 14px; font-weight: 700; color: #475569;">
-                                {{ config('app.name', 'Cheap Express Logistics') }}
+                                {{ config('app.name', 'Freight Fast Cargo') }}
                             </p>
                             <p style="margin: 0 0 16px; font-size: 13px; color: #94a3b8; line-height: 1.5;">
                                 Reliable. Fast. Global Shipping Solutions.
@@ -603,7 +603,7 @@
                                 If you have questions, contact our support team.
                             </p>
                             <p style="margin: 16px 0 0; font-size: 11px; color: #e2e8f0;">
-                                &copy; {{ date('Y') }} {{ config('app.name', 'Cheap Express Logistics') }}. All rights
+                                &copy; {{ date('Y') }} {{ config('app.name', 'Freight Fast Cargo') }}. All rights
                                 reserved.
                             </p>
                         </td>

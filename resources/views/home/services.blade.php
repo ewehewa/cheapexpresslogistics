@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Our Services - Cheap Express Logistics')
+@section('title', 'Our Services - Freight Fast Cargo')
 
 @push('styles')
 <style>
@@ -48,7 +48,7 @@
 
 {{-- HERO --}}
 <section class="services-hero">
-    <img src="{{ asset('images/air.jpg') }}" alt="Cheap Express Logistics Services" class="hero-bg">
+    <img src="{{ asset('images/air.jpg') }}" alt="Freight Fast Cargo Services" class="hero-bg">
     <div class="overlay"></div>
     <div class="hero-inner container mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <span class="eyebrow">What We Offer</span>

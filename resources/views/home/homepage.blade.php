@@ -1,10 +1,10 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Cheap Express Logistics - Global Logistics, Shipping & Package Tracking')
-@section('meta_description', 'Cheap Express Logistics provides fast, secure global shipping and logistics services. Air
+@section('title', 'Freight Fast Cargo - Global Logistics, Shipping & Package Tracking')
+@section('meta_description', 'Freight Fast Cargo provides fast, secure global shipping and logistics services. Air
 freight, ocean freight, road freight, express delivery, warehousing, and real-time package tracking to 150+ countries.
 Get a free quote today.')
-@section('meta_keywords', 'Cheap Express logistics, global shipping, international logistics, air freight, ocean
+@section('meta_keywords', 'Freight Fast Cargo, global shipping, international logistics, air freight, ocean
 freight, road
 freight, express delivery, package tracking, customs clearance, warehousing, freight forwarding, supply chain, shipping
 company')
@@ -14,11 +14,11 @@ company')
     {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Cheap Express Logistics",
+    "name": "Freight Fast Cargo",
     "url": "{{ url('/') }}",
     "logo": "{{ asset('images/hero-picture.jpg') }}",
     "description": "Global logistics and shipping company offering air freight, ocean freight, road freight, express delivery, and real-time package tracking to 150+ countries.",
-    "email": "info@cheapexpresslogistics.org",
+    "email": "info@freightfastcargo.cc",
     "address": {
         "@type": "PostalAddress",
         "streetAddress": "123 Logistics St",
@@ -29,7 +29,7 @@ company')
     "sameAs": [],
     "contactPoint": {
         "@type": "ContactPoint",
-        "email": "info@cheapexpresslogistics.org",
+        "email": "info@freightfastcargo.cc",
         "contactType": "customer service",
         "availableLanguage": ["English"]
     }
@@ -39,7 +39,7 @@ company')
     {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "Cheap Express Logistics",
+    "name": "Freight Fast Cargo",
     "url": "{{ url('/') }}",
     "potentialAction": {
         "@type": "SearchAction",
@@ -55,7 +55,7 @@ company')
     "mainEntity": [
         {
             "@type": "Question",
-            "name": "How do I track my package with Cheap Express Logistics?",
+            "name": "How do I track my package with Freight Fast Cargo?",
             "acceptedAnswer": {
                 "@type": "Answer",
                 "text": "Enter your tracking code in the tracking widget on our homepage or visit our Track page to get real-time location updates for your shipment."
@@ -63,7 +63,7 @@ company')
         },
         {
             "@type": "Question",
-            "name": "What shipping services does Cheap Express Logistics offer?",
+            "name": "What shipping services does Freight Fast Cargo offer?",
             "acceptedAnswer": {
                 "@type": "Answer",
                 "text": "We offer air freight, ocean freight, road freight, express delivery, last-mile delivery, international shipping to 150+ countries, warehousing, customs clearance, and specialized handling."
@@ -201,7 +201,7 @@ company')
     <!-- Background Image -->
     <div class="absolute inset-0 z-0">
         <img src="{{ asset('images/hero-picture.jpg') }}"
-            alt="Cheap Express Logistics - Global logistics and international shipping"
+            alt="Freight Fast Cargo - Global logistics and international shipping"
             class="w-full h-full object-cover object-center scale-105">
     </div>
 

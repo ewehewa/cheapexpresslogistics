@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Contact Us - Cheap Express Logistics')
+@section('title', 'Contact Us - Freight Fast Cargo')
 
 @push('styles')
 <style>
@@ -42,7 +42,7 @@
 
 {{-- HERO --}}
 <section class="contact-hero">
-    <img src="{{ asset('images/hero-picture.jpg') }}" alt="Contact Cheap Express Logistics" class="hero-bg">
+    <img src="{{ asset('images/hero-picture.jpg') }}" alt="Contact Freight Fast Cargo" class="hero-bg">
     <div class="overlay"></div>
     <div class="hero-inner container mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <span class="eyebrow">Get In Touch</span>
@@ -98,7 +98,7 @@
                         </div>
                         <div>
                             <h4 class="font-bold text-slate-900 text-base mb-0.5">Email Support</h4>
-                            <p class="text-slate-500 text-sm">info@cheapexpresslogistics.com</p>
+                            <p class="text-slate-500 text-sm">info@freightfastcargo.com</p>
                         </div>
                     </div>
                     <div class="contact-card">

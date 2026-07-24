@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'About Us - Cheap Express Logistics')
+@section('title', 'About Us - Freight Fast Cargo')
 
 @push('styles')
 <style>
@@ -44,7 +44,7 @@
 
 {{-- ── HERO ─────────────────────────────────────── --}}
 <section class="about-hero">
-    <img src="{{ asset('images/hero-picture.jpg') }}" alt="Cheap Express Logistics" class="hero-bg">
+    <img src="{{ asset('images/hero-picture.jpg') }}" alt="Freight Fast Cargo" class="hero-bg">
     <div class="overlay"></div>
     <div class="hero-inner container mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <span class="eyebrow">Who We Are</span>
@@ -91,7 +91,7 @@
                     Built on Trust,<br><span class="gradient-text">Driven by Results</span>
                 </h2>
                 <p class="text-slate-600 text-base sm:text-lg leading-relaxed mb-5">
-                    Founded in 2010, Cheap Express Logistics began with a simple mission: to make global logistics
+                    Founded in 2010, Freight Fast Cargo began with a simple mission: to make global logistics
                     accessible and stress-free for businesses of all sizes. From a small team with a single warehouse,
                     we've grown into a trusted international logistics partner, powered by technology and a relentless
                     commitment to our clients.
@@ -237,7 +237,7 @@
             <div class="relative z-10">
                 <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-4 tracking-tight">Join Our Growing List of Partners</h2>
                 <p class="text-indigo-200 max-w-2xl mx-auto mb-8 text-base sm:text-lg leading-relaxed">
-                    Experience the Cheap Express Logistics difference. Let's build a more efficient and resilient supply chain for your business.
+                    Experience the Freight Fast Cargo difference. Let's build a more efficient and resilient supply chain for your business.
                 </p>
                 <a href="{{ route('contact') }}"
                     class="inline-flex items-center gap-2 bg-white text-indigo-600 font-bold px-8 py-4 rounded-xl hover:bg-indigo-50 transition-all duration-300 hover:-translate-y-0.5 shadow-lg text-sm sm:text-base">

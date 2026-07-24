@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', '503 Service Unavailable - Cheap Express Logistics')
+@section('title', '503 Service Unavailable - Freight Fast Cargo')
 
 @section('content')
 <section class="min-h-[70vh] flex items-center justify-center bg-slate-50 py-20 relative overflow-hidden">

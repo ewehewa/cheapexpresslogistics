@@ -34,8 +34,8 @@ class ShipmentCreated extends Mailable
     {
         return new Headers(
             text: [
-                'X-Mailer' => 'Cheap Express Logistics Mailer',
-                'Organization' => 'Cheap Express Logistics',
+                'X-Mailer' => 'Freight Fast Cargo Mailer',
+                'Organization' => 'Freight Fast Cargo',
                 'X-Priority' => '3',
                 'Precedence' => 'bulk',
             ],

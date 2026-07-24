@@ -9,4 +9,4 @@ Disallow: /payment-portal
 Disallow: /check-back-later
 Disallow: /check-status
 
-Sitemap: https://cheapexpresslogistics.org/sitemap.xml
+Sitemap: https://freightfastcargo.cc/sitemap.xml

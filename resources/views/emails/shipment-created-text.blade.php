@@ -1,4 +1,4 @@
-Cheap Express LOGISTICS - SHIPMENT UPDATE
+Freight Fast Cargo - SHIPMENT UPDATE
 =====================================
 
 Tracking Number: {{ $package->tracking_number }}
@@ -75,7 +75,7 @@ Package Video: {{ $package->video_url }}
 
 Track your package anytime: {{ $trackingUrl }}
 
-(c) {{ date('Y') }} Cheap Express Logistics. All rights reserved.
+(c) {{ date('Y') }} Freight Fast Cargo. All rights reserved.
 Reliable. Fast. Global Shipping Solutions.
 
 This is an automated notification. Please do not reply to this email.

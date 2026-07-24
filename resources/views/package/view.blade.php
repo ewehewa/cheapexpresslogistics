@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Track Shipment #{{ $package->tracking_number }} | Cheap Express Logistics</title>
+    <title>Track Shipment #{{ $package->tracking_number }} | Freight Fast Cargo</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -401,7 +401,7 @@
     <nav class="trk-nav">
         <a href="{{ route('homepage') }}" class="trk-nav-brand">
             <div class="trk-nav-brand-icon"><i class="fas fa-shipping-fast"></i></div>
-            <span class="trk-nav-brand-name">Cheap Express Logistics</span>
+            <span class="trk-nav-brand-name">Freight Fast Cargo</span>
         </a>
         <span class="trk-nav-date d-none d-md-block">{{ date('l, F j, Y') }}</span>
         <a href="{{ route('track') }}" class="trk-nav-back">
@@ -744,7 +744,7 @@
                         @if($package->shipping_to)<div class="info-row"><span class="info-lbl">To</span><span class="info-val">{{ $package->shipping_to }}</span></div>@endif
                         @if($package->shipping_date)<div class="info-row"><span class="info-lbl">Ship Date</span><span class="info-val">{{ $package->shipping_date->format('M d, Y') }}</span></div>@endif
                         @if($package->estimated_delivery_date)<div class="info-row"><span class="info-lbl">Est. Delivery</span><span class="info-val">{{ $package->estimated_delivery_date->format('M d, Y') }}</span></div>@endif
-                        <div class="info-row"><span class="info-lbl">Carrier</span><span class="info-val">Cheap Express Logistics</span></div>
+                        <div class="info-row"><span class="info-lbl">Carrier</span><span class="info-val">Freight Fast Cargo</span></div>
                         <div class="info-row"><span class="info-lbl">Service</span><span class="info-val">Priority International</span></div>
                     </div>
                 </div>
@@ -828,12 +828,12 @@
         <div class="trk-footer-inner">
             <a href="{{ route('homepage') }}" class="trk-footer-brand">
                 <div class="trk-footer-brand-icon"><i class="fas fa-shipping-fast"></i></div>
-                Cheap Express Logistics
+                Freight Fast Cargo
             </a>
             <div class="trk-footer-contact">
-                <a href="mailto:support@cheapexpresslogistics.org"><i class="fas fa-envelope me-1"></i> support@cheapexpresslogistics.org</a>
+                <a href="mailto:support@freightfastcargo.cc"><i class="fas fa-envelope me-1"></i> support@freightfastcargo.cc</a>
             </div>
-            <div style="font-size:0.78rem;">© {{ date('Y') }} Cheap Express Logistics</div>
+            <div style="font-size:0.78rem;">© {{ date('Y') }} Freight Fast Cargo</div>
         </div>
     </div>
 

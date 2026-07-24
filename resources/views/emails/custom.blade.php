@@ -80,7 +80,7 @@
                             style="background: linear-gradient(135deg, #1e3a5f 0%, #2563eb 100%); padding: 32px; border-radius: 16px 16px 0 0; text-align: center;">
                             <h1
                                 style="margin: 0; font-size: 24px; font-weight: 700; color: #ffffff; letter-spacing: -0.5px;">
-                                Cheap Express Logistics
+                                Freight Fast Cargo
                             </h1>
                         </td>
                     </tr>
@@ -99,10 +99,10 @@
                         <td
                             style="background-color: #f8fafc; padding: 24px 32px; border-radius: 0 0 16px 16px; border-top: 1px solid #e2e8f0; text-align: center;">
                             <p style="margin: 0 0 8px; font-size: 13px; color: #94a3b8;">
-                                &copy; {{ date('Y') }} Cheap Express Logistics. All rights reserved.
+                                &copy; {{ date('Y') }} Freight Fast Cargo. All rights reserved.
                             </p>
                             <p style="margin: 0; font-size: 12px; color: #cbd5e1;">
-                                This email was sent by Cheap Express Logistics administration.
+                                This email was sent by Freight Fast Cargo administration.
                             </p>
                         </td>
                     </tr>

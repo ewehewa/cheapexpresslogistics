@@ -6,32 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>@yield('title', 'Cheap Express Logistics - Global Logistics & Shipping')</title>
+    <title>@yield('title', 'Freight Fast Cargo - Global Logistics & Shipping')</title>
 
     <!-- SEO Meta Tags -->
     <meta name="description"
-        content="@yield('meta_description', 'Cheap Express Logistics offers global shipping, air freight, ocean freight, road freight, express delivery, and real-time package tracking to 150+ countries. Get a free quote today.')">
+        content="@yield('meta_description', 'Freight Fast Cargo offers global shipping, air freight, ocean freight, road freight, express delivery, and real-time package tracking to 150+ countries. Get a free quote today.')">
     <meta name="keywords"
         content="@yield('meta_keywords', 'logistics, shipping, freight, air freight, ocean freight, road freight, package tracking, international shipping, express delivery, customs clearance, warehousing, global logistics')">
     <meta name="robots" content="index, follow">
-    <meta name="author" content="Cheap Express Logistics">
+    <meta name="author" content="Freight Fast Cargo">
     <link rel="canonical" href="@yield('canonical', url()->current())">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="@yield('og_type', 'website')">
     <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:title" content="@yield('title', 'Cheap Express Logistics - Global Logistics & Shipping')">
+    <meta property="og:title" content="@yield('title', 'Freight Fast Cargo - Global Logistics & Shipping')">
     <meta property="og:description"
-        content="@yield('meta_description', 'Cheap Express Logistics offers global shipping, air freight, ocean freight, road freight, express delivery, and real-time package tracking to 150+ countries.')">
+        content="@yield('meta_description', 'Freight Fast Cargo offers global shipping, air freight, ocean freight, road freight, express delivery, and real-time package tracking to 150+ countries.')">
     <meta property="og:image" content="@yield('og_image', asset('images/hero-picture.jpg'))">
-    <meta property="og:site_name" content="Cheap Express Logistics">
+    <meta property="og:site_name" content="Freight Fast Cargo">
     <meta property="og:locale" content="en_US">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="@yield('title', 'Cheap Express Logistics - Global Logistics & Shipping')">
+    <meta name="twitter:title" content="@yield('title', 'Freight Fast Cargo - Global Logistics & Shipping')">
     <meta name="twitter:description"
-        content="@yield('meta_description', 'Cheap Express Logistics offers global shipping, air freight, ocean freight, road freight, express delivery, and real-time package tracking to 150+ countries.')">
+        content="@yield('meta_description', 'Freight Fast Cargo offers global shipping, air freight, ocean freight, road freight, express delivery, and real-time package tracking to 150+ countries.')">
     <meta name="twitter:image" content="@yield('og_image', asset('images/hero-picture.jpg'))">
 
     @stack('seo')
@@ -348,7 +348,7 @@
                             class="w-10 h-10 bg-indigo-600 rounded-lg flex items-center justify-center shadow-md shadow-indigo-500/20">
                             <i data-feather="package" class="h-6 w-6 text-white"></i>
                         </div>
-                        <span class="text-xl font-bold text-gray-900 tracking-tight">Cheap Express Logistics</span>
+                        <span class="text-xl font-bold text-gray-900 tracking-tight">Freight Fast Cargo</span>
                     </a>
                 </div>
 
@@ -471,7 +471,7 @@
                         <div class="w-10 h-10 bg-indigo-600 rounded-lg flex items-center justify-center">
                             <i data-feather="package" class="h-6 w-6 text-white"></i>
                         </div>
-                        <span class="text-xl font-bold text-gray-900">Cheap Express Logistics</span>
+                        <span class="text-xl font-bold text-gray-900">Freight Fast Cargo</span>
                     </div>
                     <p class="text-text-secondary mb-4 max-w-md">
                         Your trusted partner for global logistics and shipping solutions.
@@ -526,7 +526,7 @@
                         </li> --}}
                         <li class="flex items-center space-x-2">
                             <i data-feather="mail" class="h-4 w-4"></i>
-                            <span>info@cheapexpresslogistics.org</span>
+                            <span>info@freightfastcargo.cc</span>
                         </li>
                         <li class="flex items-center space-x-2">
                             <i data-feather="map-pin" class="h-4 w-4"></i>
@@ -544,7 +544,7 @@
             <!-- Bottom Bar -->
             <div class="border-t border-gray-200 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
                 <p class="text-text-secondary text-sm">
-                    © 2024 Cheap Express Logistics. All rights reserved.
+                    © 2024 Freight Fast Cargo. All rights reserved.
                 </p>
                 <div class="flex space-x-6 mt-4 md:mt-0">
                     <a href="#"
